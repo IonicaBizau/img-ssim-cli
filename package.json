@@ -1,6 +1,6 @@
 {
   "bin": {
-    "img-ssim-cli": "bin/img-ssim-cli.js"
+    "img-ssim": "bin/img-ssim-cli.js"
   },
   "name": "img-ssim-cli",
   "description": "CLI Tool for comparing images using the SSIM algorithm.",

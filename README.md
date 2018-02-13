@@ -21,12 +21,12 @@ yarn global add img-ssim-cli
 ```
 
 
-Then, run `img-ssim-cli --help` and see what the CLI tool can do.
+Then, run `img-ssim --help` and see what the CLI tool can do.
 
 
 ```
-$ img-ssim-cli --help
-Usage: img-ssim-cli <first_image> <second_image> [options]
+$ img-ssim --help
+Usage: img-ssim <first_image> <second_image> [options]
 
 CLI Tool for comparing images using the SSIM algorithm.
 
@@ -49,44 +49,6 @@ Options:
 
 Documentation can be found at https://github.com/IonicaBizau/img-ssim-cli#readme.
 ```
-
-## :clipboard: Example
-
-
-Here is an example how to use this package as library. To install it locally, as library, you can do that using `npm` (or `yarn`):
-
-```sh
-# Using npm
-npm install --save img-ssim-cli
-
-# Using yarn
-yarn add img-ssim-cli
-```
-
-
-
-```js
-const imgSsimCli = require("img-ssim-cli");
-
-console.log(imgSsimCli());
-```
-
-
-
-## :question: Get Help
-
-There are few ways to get help:
-
- 1. Please [post questions on Stack Overflow](https://stackoverflow.com/questions/ask). You can open issues with questions, as long you add a link to your Stack Overflow question.
- 2. For bug reports and feature requests, open issues. :bug:
-
- 3. For direct and quick help, you can [use Codementor](https://www.codementor.io/johnnyb). :rocket:
-
-
-
-## :memo: Documentation
-
-For full API reference, see the [DOCUMENTATION.md][docs] file.
 
 ## :yum: How to contribute
 Have an idea? Found a bug? See [how to contribute][contributing].
